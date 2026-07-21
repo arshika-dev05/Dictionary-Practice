@@ -7,9 +7,12 @@ student={"Rohan":87,
          "irfan":89
          }
 # all_values=student.values()
+highest=student.get("Rohan")
+name1="Rohan"
+print(name1)
 for name,marks in  student.items() :
-    highest=student.get("Rohan")
+   
     if marks > highest:
         highest=marks
-print(f"{name} = {highest}")        
+print(f"{name1} = {highest}")        
 
